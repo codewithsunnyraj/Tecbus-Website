@@ -1,6 +1,6 @@
 import logo from "../assets/logo-white.png";
 import testimonial from "../assets/testimonial.png";
-import hero from "../assets/about-thumb1_1.jpg";
+import hero from "../assets/thumb1.jpg";
 import left_build from "../assets/about-thumb1_1.jpg";
 import deal from "../assets/pricing-thumb1_1.png";
 import orange from "../assets/orange-bg.png";
@@ -19,10 +19,12 @@ import testimonial2 from "../assets/testimonial2.png";
 import testimonial3 from "../assets/testimonial3.png";
 import wordpress from "../assets/wordpress.png";
 import location from "../assets/location.png";
-
+import location_white from "../assets/location_white.png";
 export const assets = {
   logo,
+  location_white,
   cloud1,
+  cloud,
   managed,
   development,
   git,
