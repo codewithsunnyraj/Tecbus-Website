@@ -18,3 +18,19 @@ body {
     @apply bg-gradient-to-r from-[#EF7C47] to-[#D33C1F] relative overflow-hidden lg:px-3 text-xl py-2 rounded-full text-white;
   }
 }
+
+.gradient-bg {
+  background: url("../src/assets/feature-shape1_1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-testimonial {
+  background: url("./assets/testimonial-card.png");
+  background-size: cover;
+}
+
+.bg-success {
+  background: url("./assets/cta-shape1_2.png");
+  background-size: cover;
+}

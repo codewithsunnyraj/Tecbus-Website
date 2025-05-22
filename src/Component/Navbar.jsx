@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div className="mx-auto container">
+    <div className="mx-auto container lg:px-24">
       <div className="lg:flex w-full lg:items-center lg:justify-between">
         <div>
           <img src={assets.logo} className="p-4" alt="" />

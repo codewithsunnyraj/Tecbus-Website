@@ -20,8 +20,14 @@ import testimonial3 from "../assets/testimonial3.png";
 import wordpress from "../assets/wordpress.png";
 import location from "../assets/location.png";
 import location_white from "../assets/location_white.png";
+import cardTestimonial from "../assets/testimonial-card.png";
+import dquot from "../assets/dquotation.png";
+import success_bg from "../assets/cta-shape1_2.png";
 export const assets = {
   logo,
+  dquot,
+  success_bg,
+  cardTestimonial,
   location_white,
   cloud1,
   cloud,
@@ -53,31 +59,31 @@ export const services = [
       "Easily create reusable payment links that you can share with your customers",
   },
   {
-    image: cloud,
+    image: wordpress,
     title: "IT Audits & Compliance",
     description:
       "Easily create reusable payment links that you can share with your customers",
   },
   {
-    image: cloud,
+    image: development,
     title: "Custom Development",
     description:
       "Easily create reusable payment links that you can share with your customers",
   },
   {
-    image: cloud,
+    image: figma,
     title: "Virtualization Services",
     description:
       "Easily create reusable payment links that you can share with your customers",
   },
   {
-    image: cloud,
+    image: git,
     title: "Data Center Management",
     description:
       "Easily create reusable payment links that you can share with your customers",
   },
   {
-    image: cloud,
+    image: risk,
     title: "Risk Assessment",
     description:
       "Easily create reusable payment links that you can share with your customers",
@@ -109,5 +115,36 @@ export const faq = [
     title: "Can you help with cloud migration?",
     description:
       "Car service is essential for maintaining the performance and maintaining the performance and longevity Car service is essential for maintaining",
+  },
+];
+
+export const TestimonialData = [
+  {
+    image: test1,
+    name: "sunny",
+    title: "President Of Sales",
+    comment:
+      "Easily create reusable payment links that you customers payment links your customers payment links that you",
+  },
+  {
+    image: test2,
+    name: "Tannu",
+    title: "President Of Sales",
+    comment:
+      "Easily create reusable payment links that you customers payment links your customers payment links that you",
+  },
+  {
+    image: test1,
+    name: "Radhe",
+    title: "President Of Sales",
+    comment:
+      "Easily create reusable payment links that you customers payment links your customers payment links that you",
+  },
+  {
+    image: test2,
+    name: "Vikash",
+    title: "President Of Sales",
+    comment:
+      "Easily create reusable payment links that you customers payment links your customers payment links that you",
   },
 ];

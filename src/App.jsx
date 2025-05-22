@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="bg-[#0E0F11]  p-4 md:p-6 lg:px-24  ">
+    <div className="bg-[#0E0F11]  p-4 md:p-6   ">
       <Navbar />
       <Home />
     </div>
