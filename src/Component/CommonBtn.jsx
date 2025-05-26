@@ -6,7 +6,7 @@ const CommonBtn = ({ title }) => {
     <div>
       <a
         href=""
-        className="btn-gradient  flex text-[16px] w-[134px] p-2 lg:w-[154px] items-center justify-between font-inter"
+        className="btn-gradient  flex text-[16px] w-[134px] p-2 md:px-4 md:w-[154px] items-center justify-between font-inter"
       >
         {title}
         <span className="bg-white  h-7 w-7 rounded-full flex justify-center items-center">

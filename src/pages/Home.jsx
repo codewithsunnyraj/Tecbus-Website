@@ -12,8 +12,8 @@ const Home = () => {
     <div className="w-full ">
       <div className="lg:px-24">
         <Hero />
-        {/* <Features /> */}
-        {/* <About /> */}
+        <Features />
+        <About />
       </div>
       <div className="gradient-bg">
         {/* <Services /> */}
