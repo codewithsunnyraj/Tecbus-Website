@@ -6,21 +6,23 @@ import Services from "../Component/Services";
 import Testimonial from "../Component/Testimonial";
 import Plan from "../Component/Plan";
 import SuccessCard from "../Component/SuccessCard";
+import Faq from "../Component/Faq";
 const Home = () => {
   return (
     <div className="w-full ">
       <div className="lg:px-24">
         <Hero />
-        <Features />
-        <About />
+        {/* <Features /> */}
+        {/* <About /> */}
       </div>
       <div className="gradient-bg">
-        <Services />
+        {/* <Services /> */}
       </div>
       <div className="lg:px-24">
-        <Testimonial />
-        <Plan />
-        <SuccessCard />
+        {/* <Testimonial /> */}
+        {/* <Plan /> */}
+        {/* <SuccessCard /> */}
+        {/* <Faq /> */}
       </div>
     </div>
   );

@@ -1,0 +1,93 @@
+import React from "react";
+import { assets } from "../constant/constant";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
+import { IoMdCall, IoMdMail } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+
+const Footer = () => {
+  return (
+    <div className="  w-full ">
+      <div className="lg:px-24 py-30 bg-[#16181A]">
+        <div className="grid xl:gap-8 xl:grid-cols-3">
+          <div>
+            <div>
+              <img src={assets.logo} alt="" />
+            </div>
+            <div>
+              <p className="text-slate-300 text-2xl my-8">
+                Your Trusted IT Partner – Reach Out Anytime
+              </p>
+              <div className="my-3">
+                <div className="flex gap-5">
+                  <div className="w-10 h-10 border-slate-400 border flex justify-center items-center rounded-full">
+                    <FaFacebookF className="text-white" />
+                  </div>
+                  <div className="w-10 h-10 border-slate-400 border flex justify-center items-center rounded-full">
+                    <FaInstagram className="text-white" />
+                  </div>
+                  <div className="w-10 h-10 border-slate-400 border flex justify-center items-center rounded-full">
+                    <FaLinkedinIn className="text-white" />
+                  </div>
+                  <div className="w-10 h-10 border-slate-400 border flex justify-center items-center rounded-full">
+                    <FaTwitter className="text-white" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="lg:flex justify-center">
+            <div>
+              <div>
+                <h4 className="text-white my-7 text-2xl">About</h4>
+              </div>
+              <ul className=" space-y-5 text-xl text-white">
+                <li>Blog</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          <div className="flex justify-center text-white">
+            <div>
+              <div>
+                <h4 className="text-white my-7 text-2xl">Contact Us</h4>
+              </div>
+              <div className="text-xl space-y-5">
+                <div className="flex items-center gap-3">
+                  <IoMdCall /> <a href="tel:+91 8936811660">+91 8936811660</a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <IoMdMail />
+                  <a href="mailto:sunnyrajkcb@gmail.com">
+                    sunnyrajkcb@gmail.com
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <FaLocationDot />
+                  <a href="javascript:void(0);">
+                    1212, Lav Vegas, The Veg Street, USA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="border-t p-8 mx-14 border-slate-400 flex justify-between">
+        <div className="text-white">@Sunnysite2025 | All Rights Reserved</div>
+        <div className="text-white flex gap-4 items-center">
+          <p>Privacy |</p>
+          <p>Term |</p>
+          <p>Help |</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
