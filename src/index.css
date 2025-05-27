@@ -37,6 +37,13 @@ body {
   background-position: center;
 }
 
+.hero-section {
+  background: url("./assets/breadcumb-bg.png");
+  background-size: cover;
+  height: 450px;
+ 
+}
+
 .card-testimonial {
   background: url("./assets/testimonial-card.png");
   background-size: cover;

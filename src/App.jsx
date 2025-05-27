@@ -3,12 +3,21 @@ import Navbar from "./Component/Navbar";
 import Hero from "./Component/Hero";
 import Home from "./pages/Home";
 import Footer from "./Component/Footer";
+import { Route, Routes } from "react-router-dom";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
     <div className="bg-[#0E0F11]     ">
-      {/* <Navbar /> */}
-      <Home />
+      <Navbar />
+      <Routes>
+        <Route element={<Home />} path="/" />
+        <Route element={<About />} path="/about" />
+        <Route element={<Services />} path="/services" />
+        <Route element={<Contact />} path="/contact" />
+      </Routes>
       <Footer />
     </div>
   );
