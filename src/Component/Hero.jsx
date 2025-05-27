@@ -20,10 +20,10 @@ const Hero = () => {
                 </p>
               </div>
               <div className="my-6 text-center lg:w-[550px]">
-                <h1 className="font-inter  font-medium  text-3xl md:text-5xl lg:text-4xl xl:text-6xl text-slate-300">
+                <h1 className="font-inter  font-medium  text-3xl xs:text-4xl md:text-5xl lg:text-4xl xl:text-6xl text-slate-300">
                   IT Solutions Tailored
                 </h1>
-                <h2 className="font-inter font-medium md:my-4 md:text-5xl text-3xl lg:text-4xl xl:text-6xl text-slate-300">
+                <h2 className="font-inter font-medium xs:my-2 md:my-4 xs:text-4xl md:text-5xl text-3xl lg:text-4xl xl:text-6xl text-slate-300">
                   To <span className="text-orange-600">Business Needs</span>
                 </h2>
                 <p className="text-center md:text-xl  my-5 text-slate-400">

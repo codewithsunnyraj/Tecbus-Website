@@ -16,13 +16,13 @@ const Home = () => {
         <About />
       </div>
       <div className="gradient-bg">
-        {/* <Services /> */}
+        <Services />
       </div>
-      <div className="lg:px-24">
-        {/* <Testimonial /> */}
-        {/* <Plan /> */}
-        {/* <SuccessCard /> */}
-        {/* <Faq /> */}
+      <div className="xl:px-24">
+        <Testimonial />
+        <Plan />
+        <SuccessCard />
+        <Faq />
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const App = () => {
     <div className="bg-[#0E0F11]     ">
       {/* <Navbar /> */}
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

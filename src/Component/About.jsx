@@ -4,23 +4,23 @@ import CommonBtn from "./CommonBtn";
 const About = () => {
   return (
     <div className="container mx-auto w-full">
-      <div className="lg:my-24 lg:px-14">
-        <div className="lg:flex justify-between lg:gap-20 w-full">
-          <div className="w-[30%] flex items-center justify-center">
-            <div className="flex justify-center">
+      <div className="lg:my-24 px-4 xs:px-6 lg:px-10">
+        <div className="xl:flex justify-between xl:gap-20 w-full">
+          <div className="xl:w-[30%]  flex items-center justify-center">
+            <div className="flex  justify-center">
               <div className="h-full p-6 bg-gradient-to-b from-[#0E0F11 ] to-[#662e27]">
                 <img src={assets.left_build} className="" alt="" />
               </div>
             </div>
           </div>
-          <div className="lg:p-7 lg:w-[60%]">
+          <div className="lg:p-7 my-6 xs:my-8 xl:w-[60%]">
             <div>
               <span className="border-orange-700 border text-white px-6 py-2 rounded-full">
                 About Us
               </span>
             </div>
             <div>
-              <h2 className="text-5xl text-white my-6 font-inter">
+              <h2 className="lg:text-5xl text-3xl sm:text-4xl text-white my-6 font-inter">
                 We Build Smarter Businesses with IT That Works for You
               </h2>
               <div className="grid lg:grid-cols-2 lg:gap-10">
@@ -38,13 +38,13 @@ const About = () => {
                     <CommonBtn title="Get Started" />
                   </div>
                 </div>
-                <div className="flex justify-center">
+                <div className="md:flex my-4 lg:my-0 justify-center">
                   <div>
-                    <h2 className="lg:text-8xl my-3 text-slate-500 font-bold">
+                    <h2 className="lg:text-8xl my-3 text-6xl text-slate-500 font-bold">
                       50+
                     </h2>
                     <p className="text-slate-300 text-xl">
-                      Years Od Experience
+                      Years Of Experience
                     </p>
                   </div>
                 </div>

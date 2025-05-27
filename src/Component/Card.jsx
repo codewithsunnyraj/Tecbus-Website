@@ -4,16 +4,16 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Card = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-9 lg:pb-24 lg:grid-cols-3">
+    <div className="grid sm:grid-cols-2 gap-3 xl:gap-9 lg:pb-24 lg:grid-cols-3">
       {services.map((items, index) => (
         <div key={index}>
           <div className="">
-            <div className="border border-slate-600 bg-[#ffffff08] lg:px-8 lg:py-10 rounded-sm">
+            <div className="border p-5 xs:p-6 border-slate-600 bg-[#ffffff08] lg:p-6 rounded-sm">
               <div>
                 <img src={items.image} alt="" />
               </div>
               <div>
-                <h5 className="text-white my-3 text-2xl">{items.title}</h5>
+                <h5 className="text-white my-3 text-xl xl:text-2xl">{items.title}</h5>
                 <div>
                   <p className="text-white ">{items.description}</p>
                 </div>

@@ -11,15 +11,15 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="  w-full ">
-      <div className="lg:px-24 py-30 bg-[#16181A]">
-        <div className="grid xl:gap-8 xl:grid-cols-3">
+    <div className=" container mx-auto w-full ">
+      <div className="lg:px-24 md:py-20 py-28 p-4 xs:px-8 xs:py-8 bg-[#16181A]">
+        <div className="grid xl:gap-8 lg:grid-cols-3">
           <div>
             <div>
               <img src={assets.logo} alt="" />
             </div>
             <div>
-              <p className="text-slate-300 text-2xl my-8">
+              <p className="text-slate-300 text-xl my-4 md:my-8">
                 Your Trusted IT Partner – Reach Out Anytime
               </p>
               <div className="my-3">
@@ -52,7 +52,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="flex justify-center text-white">
+          <div className="lg:flex justify-center text-white">
             <div>
               <div>
                 <h4 className="text-white my-7 text-2xl">Contact Us</h4>
@@ -78,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t p-8 mx-14 border-slate-400 flex justify-between">
+      <div className="border-t p-2 lg:p-8  md:mx-14 border-slate-400 flex justify-between">
         <div className="text-white">@Sunnysite2025 | All Rights Reserved</div>
         <div className="text-white flex gap-4 items-center">
           <p>Privacy |</p>
