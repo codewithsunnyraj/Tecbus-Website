@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -45,10 +46,16 @@ const Footer = () => {
               <div>
                 <h4 className="text-white my-7 text-2xl">About</h4>
               </div>
-              <ul className=" space-y-5 text-xl text-white">
-                <li>Blog</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
+              <ul className="cursor-pointer text-xl text-white">
+                <Link to="/services">
+                  <li>Services</li>
+                </Link>
+                <Link to="/about">
+                  <li className="my-5">About Us</li>
+                </Link>
+                <Link to="/contact">
+                  <li>Contact Us</li>
+                </Link>
               </ul>
             </div>
           </div>

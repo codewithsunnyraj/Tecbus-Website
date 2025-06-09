@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-const Services = () => {
+const ServicesCard = () => {
   return (
     <div className="w-full">
       <div className="container mx-auto">
@@ -27,4 +27,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesCard;

@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Pricing from "./pages/Pricing";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route element={<About />} path="/about" />
         <Route element={<Services />} path="/services" />
         <Route element={<Contact />} path="/contact" />
+        <Route element={<Pricing />} path="/pricing" />
       </Routes>
       <Footer />
     </div>

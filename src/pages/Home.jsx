@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "../Component/Hero";
 import Features from "../Component/Features";
 import About from "../Component/About";
-import Services from "../Component/Services";
 import Testimonial from "../Component/Testimonial";
 import Plan from "../Component/Plan";
 import SuccessCard from "../Component/SuccessCard";
 import Faq from "../Component/Faq";
+import ServicesCard from "../Component/ServicesCard";
 const Home = () => {
   return (
     <div className="w-full ">
@@ -16,7 +16,7 @@ const Home = () => {
         <About />
       </div>
       <div className="gradient-bg">
-        <Services />
+        <ServicesCard />
       </div>
       <div className="xl:px-24">
         <Testimonial />
